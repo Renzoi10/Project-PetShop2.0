@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "563690083655",
+    "project_id": "petfriendly-cf1bf",
+    "storage_bucket": "petfriendly-cf1bf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:563690083655:android:da9c29dafba842754ee862",
+        "android_client_info": {
+          "package_name": "com.utp.petfriendly"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "563690083655-5is6aefrmo3l8sld365h5qqmcsalc412.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBHUMl-v2v9DS1lpX3Jh8cxwkDP78LxX8I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "563690083655-5is6aefrmo3l8sld365h5qqmcsalc412.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

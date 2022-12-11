@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:id="@+id/root"
+    android:orientation="vertical"
+android:background="@color/colorAmarillo"
+tools:context=".view.fragment.DetalleVeterinariaFragment">
+
+<androidx.appcompat.widget.Toolbar
+    android:id="@+id/toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.5"
+        android:background="@color/white"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/txtNombre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:fontFamily="@font/kawakbold"
+            android:text="Veterinaria"
+            android:textColor="@color/colorMarron"
+            android:textSize="24dp" />
+
+        <TextView
+            android:id="@+id/txtDescipcion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:fontFamily="@font/kawakregular"
+            android:text="El American Pit Bull Terrier (APBT) es una raza canina, originaria de Estados Unidos y descendiente del Bull and Terrier, una mezcla entre el antiguo bulldog y el terrier.4​ Su esperanza de vida es de 8 a 15 años."
+            android:textColor="@color/gris" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/kawakmedium"
+                    android:text="Horario"
+                    android:textColor="@color/colorMarron" />
+
+                <TextView
+                    android:id="@+id/txtHorario"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/kawakmedium"
+                    android:text="Telefonó"
+                    android:textColor="@color/gris" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/kawakmedium"
+                    android:text="Teléfono"
+                    android:textColor="@color/colorMarron" />
+
+                <TextView
+                    android:id="@+id/txtTelefono"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/kawakmedium"
+                    android:text="Telefono"
+                    android:textColor="@color/gris" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/kawakmedium"
+                android:text="Dirección"
+                android:textColor="@color/colorMarron" />
+
+            <TextView
+                android:id="@+id/txtDireccion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/kawakmedium"
+                android:text="Guardian"
+                android:textColor="@color/gris" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/kawakmedium"
+            android:text="Ubicación"
+            android:textColor="@color/colorMarron" />
+        <ImageView
+            android:layout_marginTop="6dp"
+            android:elevation="5dp"
+            android:scaleType="fitXY"
+            android:src="@mipmap/map"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnEmpezar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/button_radius"
+            android:backgroundTint="#FFD974"
+            android:elevation="10dp"
+            android:fontFamily="@font/kawakmedium"
+            android:padding="12sp"
+            android:text="Contactar"
+            android:textAllCaps="false"
+            android:textColor="@color/colorMarron"
+            android:textSize="18dp" />
+    </LinearLayout>
+
+
+
+</LinearLayout>

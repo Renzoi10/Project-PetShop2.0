@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="dt">
+        <attr name="colorSubText" format="color"/>
+        <attr name="colorTitle" format="color"/>
+        <attr name="colorToolbar" format="color"/>
+        <attr name="colorNoToolbar" format="color"/>
+        <attr name="colorBackground" format="color"/>
+        <attr name="colorCard" format="color"/>
+        <attr name="colorOtherTitle" format="color"/>
+        <attr name="colorOtherTitle2" format="color"/>
+    </declare-styleable>
+</resources>
